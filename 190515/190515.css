@@ -6,8 +6,6 @@
   position: absolute;
   color: white;
   text-shadow: 1px 1px 2px gray;
-  font-weight: bold;
-  font-size: 2em;
   left: 50%;
   top: 75%;
   -ms-transform: translate(-50%,-50%);
@@ -15,4 +13,10 @@
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
+}
+
+.solid_line {
+  /*上と下にグレイの1pxの線を引きます*/
+  border-top: solid 1.5px gray;
+  border-bottom: solid 1.5px gray;
 }
