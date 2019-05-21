@@ -29,9 +29,18 @@ body {
   background-image: url("images/header_001.jpg");
   background-size: cover;
   background-position: center 60%;
+  margin: 0px
 }
 
 .white-text {
   color: white;
   text-shadow: 1px 1px 2px gray;
+}
+
+.bg-img {
+  background-image: url("images/shattered.png");
+}
+
+.container-extend {
+  background-color: white;
 }

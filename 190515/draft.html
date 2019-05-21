@@ -1,17 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>トップ固定のナビゲーションバー</title>
+  <title>自己紹介</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  //cssファイルの設定など
+  <link rel="stylesheet" href="190515.css">
 </head>
 
-<body style="padding-top: 4.5rem;">
-<header>
+<body>
+<div class="bg-img">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">トップ固定</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="ナビゲーションの切替">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,14 +26,6 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">無効</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ドロップダウン</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">リンク1</a>
-            <a class="dropdown-item" href="#">リンク2</a>
-            <a class="dropdown-item" href="#">リンク3</a>
-          </div>
-        </li>
       </ul>
       <form class="form-inline my-2 my-md-0">
         <input class="form-control mr-sm-2" type="search" placeholder="検索..." aria-label="検索...">
@@ -41,19 +33,67 @@
       </form>
     </div>
   </nav>
-</header>
 
-<main role="main" class="container">
-  <div class="jumbotron">
-    <h1>ナビゲーションバーの実例</h1>
-    <p class="lead">この例は、トップナビゲーションバーがどのように動作するかを説明する簡単なテスト。スクロールすると、ブラウザのビューポートの上部に固定されたままになる。</p>
-    <a class="btn btn-primary" href="../components/navbar/" target="_blank" role="button">ナビゲーションバーの解説へ &raquo;</a>
+  <div class="jumbotron jumbotron-extend jumbotron-fluid">
+    <div class="container">
+      <div class="text-center">
+        <img src="images/cat_icon.png" alt="" width="200">
+        <h1 class="white-text">RyotaOgasaharaのWebページ</h1>
+      </div>
+    </div>
   </div>
-</main>
+  <main>
+    <div class="container container-extend text-center">
+      <div class="pt-4 pb-1">
+        <h1><strong>PROFILE</strong></h1>
+      </div>
+      <hr class="featurette-divider">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-//JavaScriptプラグインの設定など
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/college.jpg" width="500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 pull-md-7">
+          <img class="featurette-image img-fluid mx-auto" src="images/ichiran.jpg" width="500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/mypet.jpg" width="500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <footer>
+        <p class="float-right"><a href="#">TOP</a></p>
+        <p>&copy; 2019 Ryota Ogasahara</p>
+      </footer>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+</div>
 </body>
 
 </html>
