@@ -44,3 +44,23 @@ body {
 .container-extend {
   background-color: white;
 }
+
+.mb-80{
+  margin-bottom: 80px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* ブートストラップの&lt;hr&gt;をもっと外に出す */
+}
+
+/* マーケティングの見出しを細めにする */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.h1-padding{
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
