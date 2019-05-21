@@ -5,38 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>背景が画像のジャンボトロン</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  //cssファイルの設定など
+  <link rel="stylesheet" href="190515.css">
 </head>
 
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">ナビゲーションバー</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="ナビゲーションの切替">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbar-header">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a class="nav-link active" href="#">ホーム</a></li>
-      <li class="nav-item"><a class="nav-link" a href="#">リンク</a></li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">ホーム <span class="sr-only">(現位置)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">リンク</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">無効</a>
+      </li>
     </ul>
+    <form class="form-inline my-2 my-md-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="検索..." aria-label="検索...">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
+    </form>
   </div>
 </nav>
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <img src="images/cat.jpg" alt="">
-    <p class="lead">これは単純なヒーローユニット、注目のコンテンツや情報に特別な注意を喚起するためのシンプルなジャンボトロンスタイルのコンポーネントです。</p>
-    <a class="btn btn-outline-primary btn-lg" href="#" role="button">もっと学ぼう</a>
+    <div class="text-center">
+      <img src="images/cat_icon.png" alt="" width="200">
+      <h1 class="white-text">RyotaOgasaharaのWebページ</h1>
+    </div>
   </div>
 </div>
 <div class="container">
-  <h1>ブランド</h1>
-  <p>ココにサイトの文章が入ります。</p>
+  <div class="alert alert-info" role="alert">
+    <h1 class="alert-heading"><strong>自己紹介</strong></h1>
+  </div>
+  <img src="images/index_img001.jpg"alt="" width="500">
+  <h2><u><strong>名前</strong></u></h2>
+  <h3>小笠原涼太 / Ryota Ogasahara</h3><br>
+  <h2><u><strong>誕生日</strong></u></h2>
+  <h3>7月5日生まれ</h3><br>
+  <h2><u><strong>出身地</strong></u></h2>
+  <h3>山梨県出身</h3><br>
+  <h2><u><strong>趣味</strong></u></h2>
+  <h3>マンガ、小説、映画、音楽</h3><br>
+  <h2><u><strong>好きな食べ物</strong></u></h2>
+  <h3>寿司、ラーメン、ハンバーグ、カレー</h3><br>
+  <h2><u><strong>嫌いな食べ物</strong></u></h2>
+  <h3>ピクルス、生たまねぎ</h3><br>
 </div><!-- /.container -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-//JavaScriptプラグインの設定など
 </body>
 
 </html>
