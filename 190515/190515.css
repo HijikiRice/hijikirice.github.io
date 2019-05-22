@@ -58,8 +58,7 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-start: 125px;
 }
 
 .h1-padding{
