@@ -1,0 +1,21 @@
+.navbar-extend{
+  padding: .6rem 17rem;
+}
+
+.jumbotron-extend {
+  background-image: url("images/header_001.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  margin: 0 auto;
+}
+
+.white-text {
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.container-extend {
+  width: 960px;
+  padding: 60px 0;
+  margin: 0 auto;
+}
