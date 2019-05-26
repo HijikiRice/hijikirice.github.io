@@ -3,86 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <title>グリッドレイアウトの練習</title>
+
+  <!-- Bootstrap4 読み込み -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS 読み込み -->
   <link rel="stylesheet" href="190522.css">
+  <!-- アイコン -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+
 <body>
+<!-- ヘッダー -->
   <header>
-    <nav class="navbar navbar-extend navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">BlOG</a>
-    </nav>
-    <div class="jumbotron jumbotron-extend jumbotron-fluid">
-        <div class="text-center">
-          <img src="images/cat_icon.png" alt="" width="200">
-          <h1 class="white-text">RyotaOgasaharaのBLOG</h1>
+    <div class="row">
+      <div class="col">
+        <div class="navbar-wrapper bg-dark">
+          <nav class="navbar navbar-extend navbar-expand-md navbar-dark">
+            <a class="navbar-brand navbar-brand-extend" href="#">BlOG</a>
+          </nav>
+          <div class="jumbotron jumbotron-extend jumbotron-fluid">
+            <div class="text-center">
+              <img src="images/cat_icon.png" alt="" width="200">
+              <h1 class="white-text">RyotaOgasaharaのBLOG</h1>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   </header>
 
-<div class="container-extend">
-  <div class="row">
-    <div class="col">
-      <img src="" alt="">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h1>ホーム</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-8">
-      <h1>アナと雪の女王の LetIt Goをカバー！</h1>
-      <p>2014/6/27 20:49</p>
-      <p>ついにビートボックス動画をアップしました！<br>
-        世界中で大人気のアナと雪の女王の主題歌<br>
-        『Let It Go』をDaichiくんと一緒にBeatboxでカバーしました！<br><br><br><br>
-
-
-
-        一ヶ月くらいかけてこの一本に力を注いできたので、<br>
-        公開できた今本当にスッキリしています♪<br><br>
-
-        もし宜しければお友達や知り合いに共有して頂けると嬉しいです♪<br><br>
-
-        最近時間をかけた作品をアップしていなかったので、<br>
-        どうせやるなら本気でやろうと考え、今は燃え尽きかけてます(笑)<br><br>
-
-        早速沢山の反響を頂いてます。<br>
-        頑張って良かった。<br>
-        本当に良い曲です。<br><br>
-
-        アナ雪最高！<br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </p>
-    </div>
-    <div class="col-4">
-      <div class="text-center">
-        <img src="" alt="">
-        <p>
-          ああああああああああああああああああああああああああああああああああああ
-        </p>
+<!-- メニューバー -->
+<div class="menu-wrapper">
+  <div class="menu-bar">
+    <div class="row">
+      <div class="col">
+        <a href="#"><i class="fas fa-home fa-2x my-gray"></i></a>
       </div>
     </div>
   </div>
+</div>
+  <!-- メニューバーここまで -->
+  <!-- ヘッダーここまで -->
+
+  <!-- 本文 -->
+<div class="container-extend">
   <div class="row">
-    <div class="col">
-      <p class="text-center">
-        &copy; 藤丸くん
-      </p>
+    <div class="col-8">
+      <div class="article-header">
+        <h1 class="article-title">アナと雪の女王の Let It Goをカバー！</h1>
+        <p class="article-time">2014/6/27 20:49</p>
+      </div>
+      <div class="article-body">
+        <p>ついにビートボックス動画をアップしました！<br>
+          世界中で大人気のアナと雪の女王の主題歌<br>
+          『Let It Go』をDaichiくんと一緒にBeatboxでカバーしました！<br>
+          <br>
+          <br>
+          <br>
+          一ヶ月くらいかけてこの一本に力を注いできたので、<br>
+          公開できた今本当にスッキリしています♪<br>
+          <br>
+          もし宜しければお友達や知り合いに共有して頂けると嬉しいです♪<br>
+          <br>
+          最近時間をかけた作品をアップしていなかったので、<br>
+          どうせやるなら本気でやろうと考え、今は燃え尽きかけてます(笑)<br>
+          <br>
+          早速沢山の反響を頂いてます。<br>
+          頑張って良かった。<br>
+          本当に良い曲です。<br>
+          <br>
+          アナ雪最高！<br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </p>
+      </div>
+    </div>
+    <!-- 本文ここまで -->
+
+    <!-- サイドメニュー -->
+    <div class="col-4">
+      <div class="sidemenu-wrapper">
+        <div class="sidemenu">
+          <div class="profile-img">
+            <img src="images/icon_001.jpg" class="rounded-circle img-fluid" alt="アイコン">
+          </div>
+          <h2>
+            hijikirice
+          </h2>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+<!-- サイドメニューここまで -->
+
+  <!-- フッター -->
+  <div class="row">
+    <div class="col">
+      <div class="footer-wrapper">
+        <div class="footer-text">
+          <p>&copy; 藤丸くん</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- フッターここまで -->
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-
 </body>
 </html>

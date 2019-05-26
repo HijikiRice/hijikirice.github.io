@@ -1,5 +1,17 @@
+.navbar-wrapper{
+  width: 100%;
+}
+
 .navbar-extend{
-  padding: .6rem 17rem;
+  width: 960px;
+  padding: 0px;
+  margin: auto;
+}
+
+.navbar-brand-extend{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
 }
 
 .jumbotron-extend {
@@ -18,4 +30,63 @@
   width: 960px;
   padding: 60px 0;
   margin: 0 auto;
+}
+
+.menu-wrapper{
+  width: 100%;
+  border-bottom: solid 1px #dcdcdc;
+}
+
+.menu-bar{
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-gray{
+  color: lightgray;
+}
+
+.article-header{
+margin-bottom: 4rem;
+}
+
+.article-body{
+}
+
+.article-time{
+  color: #999;
+  font-size: .8rem;
+}
+
+.article-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sidemenu-wrapper{
+  margin-left: 2rem;
+}
+
+.sidemenu{
+  text-align: center;
+}
+
+.profile-img{
+  margin-bottom: 1rem;
+}
+
+.footer-wrapper{
+  width: 100%;
+  border-top: solid 1px #dcdcdc;
+}
+
+.footer-text{
+  width: 960px;
+  margin: 0 auto;
+  color: #999;
+  font-size: .8rem;
+  text-align: right;
+  padding: 30px 0 60px 0;
 }
