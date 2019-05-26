@@ -1,16 +1,3 @@
-a {
-  color: #666666;
-}
-
-a:visited {
-  color: #666666;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #999999;
-}
-
 .navbar-wrapper{
   width: 100%;
 }
@@ -130,6 +117,19 @@ margin-bottom: 4rem;
 
 .side-wrapper{
   padding-bottom: 4rem;
+}
+
+.side-wrapper a {
+  color: #666666;
+}
+
+.side-wrapper a:visited {
+  color: #666666;
+}
+
+.side-wrapper a:hover {
+  text-decoration: none;
+  color: #999999;
 }
 
 .profile{
