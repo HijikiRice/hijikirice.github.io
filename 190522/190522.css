@@ -22,10 +22,8 @@
 }
 
 .header-img {
-  max-width: 200px;
-}
-.header-img img {
-  width: 100%;
+  padding-left: 45%;
+  padding-right: 45%;
 }
 
 .white-text {
