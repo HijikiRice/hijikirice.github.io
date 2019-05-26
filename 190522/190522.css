@@ -87,6 +87,12 @@ margin-bottom: 4rem;
   color: #989797;
 }
 
+.article {
+  padding-top: 5rem;
+  margin-top: 5rem;
+  border-top: solid 1px #dcdcdc;
+}
+
 .favorite{
   display: inline-block;
   margin-right: 2rem;
@@ -102,6 +108,10 @@ margin-bottom: 4rem;
 
 .tag-icon{
   color: #3771ac;
+}
+
+.index-navigator{
+margin: 4rem 0;
 }
 
 .sidemenu{
