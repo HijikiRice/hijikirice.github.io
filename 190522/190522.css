@@ -24,24 +24,24 @@
   font-size: 1.5rem;
 }
 
-.jumbotron-extend {
+.jumbotron-extend{
   background-image: url("images/header_001.jpg");
   background-size: cover;
   background-position: center 60%;
   margin: 0 auto;
 }
 
-.header-img {
+.header-img{
   padding-left: 45%;
   padding-right: 45%;
 }
 
-.white-text {
+.white-text{
   color: white;
   text-shadow: 1px 1px 2px gray;
 }
 
-.container-extend {
+.container-extend{
   width: 960px;
   padding: 60px 0;
   margin: 0 auto;
@@ -87,7 +87,7 @@ margin-bottom: 4rem;
   color: #989797;
 }
 
-.article {
+.article{
   padding-top: 5rem;
   margin-top: 5rem;
   border-top: solid 1px #dcdcdc;
