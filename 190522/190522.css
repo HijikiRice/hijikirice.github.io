@@ -45,7 +45,7 @@
 }
 
 .my-gray{
-  color: lightgray;
+  color: #b2b2b2;
 }
 
 .article-header{
@@ -53,6 +53,7 @@ margin-bottom: 4rem;
 }
 
 .article-body{
+  color: #666666;
 }
 
 .article-time{
@@ -66,15 +67,42 @@ margin-bottom: 4rem;
 }
 
 .sidemenu-wrapper{
-  margin-left: 2rem;
 }
 
 .sidemenu{
   text-align: center;
 }
 
+.profile{
+  margin-bottom: 2rem;
+  border-bottom: solid 1px #ebebeb;
+}
+
 .profile-img{
+  margin-bottom: 1.5rem;
+}
+
+.profile-name{
+  color: #666666;
+  font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 1rem;
+}
+
+.profile-ruby{
+  color: #999999;
+  margin-bottom: 1.5rem;
+}
+
+.profile-job{
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.profile-maintext{
+  text-align: left;
+  color: #999999;
+  margin-bottom: 2rem;
 }
 
 .footer-wrapper{
