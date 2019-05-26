@@ -1,3 +1,16 @@
+a {
+  color: #666666;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+
 .navbar-wrapper{
   width: 100%;
 }
