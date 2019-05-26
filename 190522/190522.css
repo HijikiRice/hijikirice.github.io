@@ -78,6 +78,19 @@ margin-bottom: 4rem;
   margin-bottom: 1rem;
 }
 
+.article-title a {
+  color: #000000;
+}
+
+.article-title a:visited {
+  color: #000000;
+}
+
+.article-title a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+
 .article-footer{
   margin-top: 3rem;
   font-size: .8rem;
