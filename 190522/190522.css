@@ -22,7 +22,7 @@ iframe.youtube-video{
   padding-top: .8rem;
   padding-bottom: .8rem;
   font-size: 1.5rem;
-  font-family: "cursive";
+  font-family: 'Righteous', cursive;
   font-weight: bold;
 }
 
@@ -198,7 +198,7 @@ margin-bottom: 4rem;
   margin-top: .5rem;
 }
 
-.page-item-color{
+.pagination-active{
   background-color: #376c9c;
   border-color: #376c9c;
 }
