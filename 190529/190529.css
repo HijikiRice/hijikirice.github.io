@@ -1,3 +1,9 @@
+#wrapper{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 iframe.youtube-video{
   border: 0;
   width: 480px;
@@ -31,6 +37,9 @@ iframe.youtube-video{
   background-size: cover;
   background-position: center 60%;
   margin: 0 auto;
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
 }
 
 .header-img{
@@ -67,7 +76,7 @@ iframe.youtube-video{
 }
 
 .article-header{
-margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .article-body{
