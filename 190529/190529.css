@@ -4,6 +4,11 @@
   padding: 0px;
 }
 
+.m-960{
+  width: 960px;
+  padding: 60px 0;
+}
+
 iframe.youtube-video{
   border: 0;
   width: 480px;
