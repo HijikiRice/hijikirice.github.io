@@ -80,6 +80,16 @@
   margin-bottom: 0;
 }
 
+.header-img{
+  padding-left: 43.2%;
+  padding-right: 43.2%;
+}
+
+.jumbotron h1{
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+}
+
 .homeicon{
   color: #b2b2b2;
   font-size: 2.5rem;
@@ -125,13 +135,55 @@
 }
 
 .blog-post-title {
-  margin-bottom: .25rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
 }
+
+.blog-post-title a {
+  color: #000000;
+}
+
+.blog-post-title a:visited {
+  color: #000000;
+}
+
+.blog-post-title a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
+}
+
+.article-footer{
+  margin-top: 3rem;
+  font-size: .8rem;
+  color: #989797;
+}
+
+.favorite{
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.favorite-icon{
+  color: #f57975;
+}
+
+.tag{
+  display: inline-block;
+}
+
+.tag-icon{
+  color: #3771ac;
+}
+
+.page-navigator{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 /*プロフィール*/
@@ -145,11 +197,34 @@
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 768px){
+  .profile-img {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+}
+
 .profile-name{
   color: #666666;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+}
+@media (min-width: 768px){
+  .profile-name {
+    color: #666666;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 992px){
+  .profile-name {
+    color: #666666;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
 }
 
 .profile-ruby{
