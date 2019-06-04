@@ -25,7 +25,7 @@
 }
 /*ナビゲーションバーの設定*/
 .navbar-extend{
-  padding: .25rem;
+  padding: 0 1rem;
 }
 @media (min-width: 1200px){
   .navbar-extend {
