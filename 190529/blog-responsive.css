@@ -80,9 +80,19 @@
   margin-bottom: 0;
 }
 
-.header-img{
-  padding-left: 43.2%;
-  padding-right: 43.2%;
+.img-rsp{
+width: 6rem;
+}
+
+@media (min-width: 768px){
+  .img-rsp {
+    width: 7rem;
+  }
+}
+@media (min-width: 992px){
+  .img-rsp {
+    width: 9rem;
+  }
 }
 
 .jumbotron h1{
@@ -238,17 +248,46 @@
 }
 
 .profile-maintext {
-  font-size: .9rem;
   color: #999999;
   margin-bottom: 2rem;
 }
-/*フッタ*/
 
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  border-top: .05rem solid #e5e5e5;
+.side-wrapper{
+  padding-bottom: 4rem;
+}
+
+.side-wrapper a {
+  color: #666666;
+}
+
+.side-wrapper a:visited {
+  color: #666666;
+}
+
+.side-wrapper a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+.side-title{
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.side-body{
+  text-decoration: none;
+  color: #666666;
+  margin-top: .5rem;
+}
+
+
+/*フッタ*/
+.blog-footer{
+  border-top: solid 1px #dcdcdc;
+}
+.blog-footer-text {
+  color: #999999;
+  font-size: .8rem;
+  text-align: right;
+  padding: 30px 0 60px 0;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
