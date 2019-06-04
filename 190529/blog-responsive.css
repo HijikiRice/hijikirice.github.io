@@ -23,54 +23,14 @@
     max-width: 960px;
   }
 }
-
-
-.display-4 {
-  font-size: 2.5rem;
+/*ナビゲーションバーの設定*/
+.navbar-extend{
+  padding: .25rem;
 }
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
+@media (min-width: 1200px){
+  .navbar-extend {
+    padding: .5rem;
   }
-}
-
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
-}
-
-.flex-auto {
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
 }
 /*ジャンボトロンの画像設定*/
 .jumbotron {
@@ -98,30 +58,45 @@ width: 6rem;
 .jumbotron h1{
   color: white;
   text-shadow: 1px 1px 2px gray;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px){
+  .jumbotron h1{
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 2.5rem;
+  }
 }
 
 .homeicon{
   color: #b2b2b2;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
-
+@media (min-width: 768px){
+  .homeicon{
+    color: #b2b2b2;
+    font-size: 2.5rem;
+  }
+}
 /*
  * ブログの名前と説明
  */
 
 .blog-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
+@media (min-width: 768px){
+  .blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
 .blog-description {
   font-size: 1.1rem;
   color: #999;
-}
-
-@media (min-width: 40em) {
-  .blog-title {
-    font-size: 1.5rem;
-  }
 }
 
 /*
@@ -140,8 +115,15 @@ width: 6rem;
 }
 .blog-post-title {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+@media (min-width: 768px){
+  .blog-post-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 }
 
 .blog-post-title a {
