@@ -17,11 +17,11 @@
   text-decoration: none;
 }
 
-/*
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+@media (min-width: 1200px)
+.container {
+    max-width: 960px;
 }
-*/
+
 
 .display-4 {
   font-size: 2.5rem;
@@ -132,15 +132,45 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
 }
 
-/*
- * フッタ
- */
+/*プロフィール*/
+.profile{
+  margin-bottom: 2rem;
+  border-bottom: solid 1px #ebebeb;
+  text-align: center;
+}
+
+.profile-img{
+  margin-bottom: 1.5rem;
+}
+
+.profile-name{
+  color: #666666;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profile-ruby{
+  color: #999999;
+  margin-bottom: 1.5rem;
+}
+
+.profile-job{
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.profile-maintext{
+  font-size: .9rem;
+  color: #999999;
+  margin-bottom: 2rem;
+
+/*フッタ*/
 
 .blog-footer {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
