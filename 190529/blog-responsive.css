@@ -143,7 +143,9 @@ width: 6rem;
   margin-top: 5rem;
   border-top: solid 1px #dcdcdc;
 }
-
+.article-header{
+  margin-bottom: 4rem;
+}
 .blog-post-title {
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -164,8 +166,8 @@ width: 6rem;
 }
 
 .blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
+  color: #999999;
+  font-size: .9rem;
 }
 
 .article-footer{
@@ -185,6 +187,19 @@ width: 6rem;
 
 .tag{
   display: inline-block;
+}
+
+.tag a {
+  color: #989797;
+}
+
+.tag a:visited {
+  color: #989797;
+}
+
+.tag a:hover {
+  text-decoration: none;
+  color: #376c9c
 }
 
 .tag-icon{
