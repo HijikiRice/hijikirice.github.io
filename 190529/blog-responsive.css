@@ -107,7 +107,7 @@ width: 7rem;
 }
 
 .blog-text{
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 @media (min-width: 768px){
   .blog-text{
@@ -156,7 +156,7 @@ width: 7rem;
 }
 .article-footer{
   margin-top: 3rem;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #989797;
 }
 @media (min-width: 768px){
