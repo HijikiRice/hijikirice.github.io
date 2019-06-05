@@ -156,8 +156,13 @@ width: 7rem;
 }
 .article-footer{
   margin-top: 3rem;
-  font-size: .8rem;
+  font-size: 1rem;
   color: #989797;
+}
+@media (min-width: 768px){
+  .article-footer{
+    font-size: .8rem;
+  }
 }
 
 .favorite{
