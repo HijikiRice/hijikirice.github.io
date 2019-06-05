@@ -24,13 +24,8 @@
   }
 }
 /*ナビゲーションバーの設定*/
-.navbar-extend{
-  padding: 0 1rem;
-}
-@media (min-width: 1200px){
-  .navbar-extend {
-    padding: .5rem;
-  }
+.navbar-extend {
+  padding: .5rem;
 }
 /*ジャンボトロンの画像設定*/
 .jumbotron {
@@ -41,12 +36,12 @@
 }
 
 .img-rsp{
-width: 6rem;
+width: 7rem;
 }
 
 @media (min-width: 768px){
   .img-rsp {
-    width: 7rem;
+    width: 8rem;
   }
 }
 @media (min-width: 992px){
@@ -110,6 +105,16 @@ width: 6rem;
   margin-top: 5rem;
   border-top: solid 1px #dcdcdc;
 }
+
+.blog-text{
+  font-size: 1.15rem;
+}
+@media (min-width: 768px){
+  .blog-text{
+    font-size: 1rem;
+  }
+}
+
 .article-header{
   margin-bottom: 4rem;
 }
@@ -141,9 +146,14 @@ width: 6rem;
 
 .blog-post-meta {
   color: #999999;
-  font-size: .8rem;
+  font-size: 1rem;
 }
-
+@media (min-width: 768px){
+  .blog-post-meta {
+    color: #999999;
+    font-size: .8rem;
+  }
+}
 .article-footer{
   margin-top: 3rem;
   font-size: .8rem;
