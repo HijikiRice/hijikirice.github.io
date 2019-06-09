@@ -19,11 +19,11 @@
 
 /*containerの設定*/
 .container-extend{
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .container-extend{
-    padding-top: 0rem;
+    padding-top: 0;
     margin-top: 3rem;
   }
 }
@@ -102,7 +102,7 @@
 .bg-img {
   background-image: url("images/shattered.png");
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .bg-img {
     background-image: none;
     background-color: white;
@@ -119,10 +119,11 @@
   border-color: #e6e6e6;
   border-style: none none solid;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .article-box{
     background-color: white;
-    padding: 0rem;
+    padding: 0;
+    border-bottom: none;
   }
 }
 
@@ -132,7 +133,7 @@
 .blog-post {
   padding-top: .5rem;
   margin-top: .5rem;
-  border-top: solid 1px #dcdcdc;
+  /*border-top: solid 1px #dcdcdc;*/
 }
 @media (min-width: 576px){
   .blog-post {
@@ -177,7 +178,22 @@
 
 .blog-post-title a:hover {
   text-decoration: none;
-  color: #999999;
+  color: #000000;
+}
+
+@media (min-width: 576px){
+  .blog-post-title a {
+    color: #000000;
+  }
+
+  .blog-post-title a:visited {
+    color: #000000;
+  }
+
+  .blog-post-title a:hover {
+    text-decoration: none;
+    color: #999999;
+  }
 }
 
 .blog-post-meta {
