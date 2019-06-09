@@ -17,8 +17,17 @@
   text-decoration: none;
 }
 
-/*containerの幅設定
-@media (min-width: 1200px){
+/*containerの設定*/
+.container-extend{
+  padding-top: 1.5rem;
+}
+@media (min-width: 768px){
+  .container-extend{
+    padding-top: 0rem;
+    margin-top: 3rem;
+  }
+}
+/*@media (min-width: 1200px){
   .container {
     max-width: 960px;
   }
@@ -90,16 +99,47 @@
   }
 }
 
+.bg-img {
+  background-image: url("images/shattered.png");
+}
+@media (min-width: 768px){
+  .bg-img {
+    background-image: none;
+    background-color: white;
+  }
+}
+
 /*
  * ブログの投稿
  */
+.article-box{
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px;
+  border-color: #e6e6e6;
+  border-style: none none solid;
+}
+@media (min-width: 768px){
+  .article-box{
+    background-color: white;
+    padding: 0rem;
+  }
+}
+
 .blog-post-first{
 }
 
 .blog-post {
-  padding-top: 5rem;
-  margin-top: 5rem;
+  padding-top: .5rem;
+  margin-top: .5rem;
   border-top: solid 1px #dcdcdc;
+}
+@media (min-width: 576px){
+  .blog-post {
+    padding-top: 5rem;
+    margin-top: 5rem;
+    border-top: solid 1px #dcdcdc;
+  }
 }
 
 .blog-text{
@@ -309,7 +349,7 @@
 }
 
 .ad-wrapper img{
-  width: 320px;
+  width: 350px;
   max-width: 100%;
   height: auto;
 }
