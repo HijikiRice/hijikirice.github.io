@@ -17,12 +17,12 @@
   text-decoration: none;
 }
 
-/*containerの幅設定*/
+/*containerの幅設定
 @media (min-width: 1200px){
   .container {
     max-width: 960px;
   }
-}
+}*/
 /*ナビゲーションバーの設定*/
 .navbar-extend {
   padding: .5rem;
@@ -74,6 +74,7 @@
     font-size: 2.5rem;
   }
 }
+
 /*
  * ブログの名前と説明
  */
@@ -87,11 +88,6 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
-}
-
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
 }
 
 /*
@@ -260,11 +256,24 @@
 .profile-maintext {
   color: #999999;
   margin-bottom: 2rem;
-  font-size: .9rem;
+  font-size: 13px;
+}
+
+.profile-social-icon{
+  margin-bottom: 2rem;
 }
 
 .social-icon{
-  color: #999999;
+  /*color: #999999;*/
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+@media (min-width: 992px){
+  .social-icon{
+    /*color: #999999;*/
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 .side-wrapper{
@@ -295,6 +304,16 @@
   margin-top: .5rem;
 }
 
+.ad-wrapper{
+  margin-bottom: 2rem;
+}
+
+.ad-wrapper img{
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*フッタ*/
 .blog-footer{
@@ -305,7 +324,4 @@
   font-size: .8rem;
   text-align: right;
   padding: 30px 0 60px 0;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
 }
