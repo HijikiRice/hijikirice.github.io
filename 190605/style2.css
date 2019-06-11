@@ -259,8 +259,9 @@
 }
 
 .profile-img{
+  vertical-align: middle;
   width: 4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 @media (min-width: 576px){
   .profile-img {
@@ -276,10 +277,11 @@
 }
 
 .profile-name{
+  display:inline-block;
+  vertical-align: middle;
   color: #666666;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 @media (min-width: 576px){
   .profile-name {
@@ -371,7 +373,7 @@
 
 .profile-box{
   background-color: white;
-  padding: 1rem;
+  padding: .5rem 1rem .5rem 1rem;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
