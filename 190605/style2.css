@@ -214,14 +214,17 @@
 
 .favorite{
   display: inline-block;
+  vertical-align:middle;
   margin-right: 2rem;
 }
 
 .favorite-icon{
+  vertical-align:middle;
   color: #f57975;
 }
 
 .tag{
+  vertical-align:middle;
   display: inline-block;
 }
 
@@ -239,6 +242,7 @@
 }
 
 .tag-icon{
+  vertical-align:middle;
   color: #3771ac;
 }
 
