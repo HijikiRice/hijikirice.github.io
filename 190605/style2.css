@@ -255,10 +255,10 @@
 }
 
 .profile-img{
-  width: 8rem;
+  width: 4rem;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .profile-img {
     width: 10rem;
     margin-bottom: 1.5rem;
@@ -273,11 +273,11 @@
 
 .profile-name{
   color: #666666;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .profile-name {
     color: #666666;
     font-size: 1.5rem;
@@ -363,6 +363,21 @@
   width: 350px;
   max-width: 100%;
   height: auto;
+}
+
+.profile-box{
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px;
+  border-color: #e6e6e6;
+  border-style: none none solid;
+}
+@media (min-width: 576px){
+  .profile-box{
+    background-color: white;
+    padding: 0;
+    border-bottom: none;
+  }
 }
 
 
