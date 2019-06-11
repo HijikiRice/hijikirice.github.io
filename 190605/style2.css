@@ -198,14 +198,9 @@
 
 .blog-post-meta {
   color: #999999;
-  font-size: 1rem;
+  font-size: .8rem;
 }
-@media (min-width: 768px){
-  .blog-post-meta {
-    color: #999999;
-    font-size: .8rem;
-  }
-}
+
 .article-footer{
   margin-top: 3rem;
   font-size: .9rem;
