@@ -14,9 +14,9 @@
 
 /*containerの設定*/
 .container-extend{
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 @media (min-width: 576px){
   .container-extend{
@@ -251,8 +251,8 @@
   }
 }
 ul{
-   margin-bottom: 10px;
-   margin-top: 10px;
+   margin-bottom: 15px;
+   margin-top: 15px;
  }
 
 /*プロフィール*/
@@ -374,7 +374,7 @@ ul{
 .archive-select{
   display: block;
   padding: 13px 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   width: 100%;
   font-size: 12px;
   background-origin: padding-box;
@@ -406,6 +406,7 @@ ul{
 .profile-box{
   background-color: white;
   padding: 13px 18px;
+  margin-bottom: 15px;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
