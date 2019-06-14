@@ -339,7 +339,12 @@ ul{
 }
 
 .side-wrapper{
-  padding-bottom: 4rem;
+  padding-bottom: 50px;
+}
+@media (min-width: 576px){
+  .side-wrapper{
+    padding-bottom: 4rem;
+  }
 }
 
 .side-wrapper a {
@@ -368,26 +373,18 @@ ul{
 
 .archive-select{
   display: block;
-  width: 100%;
   padding: 13px 18px;
   margin-bottom: 10px;
+  width: 100%;
   font-size: 12px;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
+  background-origin: padding-box;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
   -webkit-appearance:none;
-}
-.archive-select::after{
-  position: absolute;
-  top: 35%;
-  right: 3%;
-  margin-top: -8px;
-  content: "▼";
-  color: #333;
+  background-repeat: no-repeat;
+  background-position: 96% center;
+  background-image: url("images/allow_down.png");
 }
 
 .ad-wrapper{
@@ -395,9 +392,15 @@ ul{
 }
 
 .ad-wrapper img{
-  width: 350px;
-  max-width: 100%;
+  width: 300px;
   height: auto;
+}
+@media (min-width: 576px){
+  .ad-wrapper img{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .profile-box{
