@@ -199,7 +199,7 @@
   font-size: .9rem;
   color: #989797;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .article-footer{
     font-size: .8rem;
   }
@@ -217,9 +217,15 @@
 }
 
 .tag{
-  vertical-align:middle;
-  display: inline-block;
+  display: none;
 }
+@media (min-width: 576px){
+  .tag{
+    vertical-align:middle;
+    display: inline-block;
+  }
+}
+
 
 .tag a {
   color: #989797;
@@ -377,6 +383,7 @@ ul{
   margin-bottom: 15px;
   width: 100%;
   font-size: 12px;
+  background-color: #FFFFFF;
   background-origin: padding-box;
   border-bottom: 1px;
   border-color: #e6e6e6;
