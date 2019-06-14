@@ -8,18 +8,15 @@
   margin-bottom: 0;
 }
 
-.blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
-}
-
 .blog-header-logo:hover {
   text-decoration: none;
 }
 
 /*containerの設定*/
 .container-extend{
-  padding-top: 1rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media (min-width: 576px){
   .container-extend{
@@ -27,14 +24,10 @@
     margin-top: 3rem;
   }
 }
-/*@media (min-width: 1200px){
-  .container {
-    max-width: 960px;
-  }
-}*/
+
 /*ナビゲーションバーの設定*/
 .navbar-extend {
-  padding: .5rem;
+  padding: 3px 15px;
 }
 /*ジャンボトロンの画像設定*/
 .jumbotron {
@@ -89,7 +82,7 @@
  */
 
 .blog-title {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: bold;
 }
 @media (min-width: 768px){
@@ -114,7 +107,7 @@
  */
 .article-box{
   background-color: white;
-  padding: 1rem;
+  padding: 15px;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
@@ -144,9 +137,9 @@
 }
 
 .blog-text{
-  font-size: 1rem;
+  font-size: 14px;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .blog-text{
     font-size: 1rem;
   }
@@ -157,10 +150,10 @@
 }
 .blog-post-title {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .blog-post-title {
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -247,9 +240,20 @@
 }
 
 .page-navigator{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+@media (min-width: 576px){
+  .page-navigator{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+ul{
+   margin-bottom: 10px;
+   margin-top: 10px;
+ }
 
 /*プロフィール*/
 .profile{
@@ -260,8 +264,9 @@
 
 .profile-img{
   vertical-align: middle;
-  width: 4rem;
+  width: 65px;
   margin-bottom: 0;
+  margin-right: 10px;
 }
 @media (min-width: 576px){
   .profile-img {
@@ -280,7 +285,7 @@
   display:inline-block;
   vertical-align: middle;
   color: #666666;
-  font-size: 1.2rem;
+  font-size: 14px;
   font-weight: bold;
 }
 @media (min-width: 576px){
@@ -364,15 +369,25 @@
 .archive-select{
   display: block;
   width: 100%;
-  padding: .5rem;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
+  padding: 13px 18px;
+  margin-bottom: 10px;
+  font-size: 12px;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border-bottom: 1px;
+  border-color: #e6e6e6;
+  border-style: none none solid;
+  -webkit-appearance:none;
+}
+.archive-select::after{
+  position: absolute;
+  top: 35%;
+  right: 3%;
+  margin-top: -8px;
+  content: "▼";
+  color: #333;
 }
 
 .ad-wrapper{
@@ -387,7 +402,7 @@
 
 .profile-box{
   background-color: white;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 13px 18px;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
