@@ -55,10 +55,10 @@
 .jumbotron h1{
   color: white;
   text-shadow: 1px 1px 2px gray;
-  font-size: 2rem;
+  font-size: 28px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 576px){
   .jumbotron h1{
     color: white;
     text-shadow: 1px 1px 2px gray;
@@ -85,7 +85,7 @@
   font-size: 20px;
   font-weight: bold;
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
   .blog-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -339,7 +339,7 @@ ul{
 }
 
 .side-wrapper{
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 @media (min-width: 576px){
   .side-wrapper{
@@ -388,7 +388,8 @@ ul{
 }
 
 .ad-wrapper{
-  margin-bottom: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .ad-wrapper img{
