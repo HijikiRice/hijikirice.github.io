@@ -397,10 +397,10 @@ ul{
   padding: 13px 18px;
   margin-bottom: 1rem;
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   color: #666666;
   background-color: #FFFFFF;
-  background-origin: padding-box;
+
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
