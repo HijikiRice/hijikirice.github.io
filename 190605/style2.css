@@ -1,6 +1,7 @@
-/*
- *ヘッダ
- */
+input[type="button"],input[type="text"]input[type="submit"] {
+                        -webkit-appearance: none;
+                        border-radius: 0;
+                      }
 
 .blog-header {
   line-height: 1;
