@@ -155,7 +155,7 @@
 }
 
 .blog-post-title {
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
   font-size: 22px;
   font-weight: bold;
 }
@@ -213,9 +213,18 @@
 }
 
 .favorite{
+  font-size: 12px;
   display: inline-block;
   vertical-align:middle;
-  margin-right: 2rem;
+}
+@media (min-width: 576px){
+  .favorite{
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 2rem;
+    padding-left: 0;
+  }
 }
 
 .favorite-icon{
@@ -385,7 +394,6 @@ ul{
 }
 
 .archive-select{
-  display: block;
   padding: 13px 18px;
   margin-bottom: 1rem;
   width: 100%;
