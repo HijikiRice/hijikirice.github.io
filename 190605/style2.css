@@ -14,7 +14,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (min-width: 768px){
+  @media (min-width: 768px){
   .container-extend{
     padding-top: 0;
     margin-top: 3rem;
@@ -192,12 +192,17 @@
 }
 
 .article-footer{
-  margin-top: 1rem;
+  color: #b0b0b0;
+  border-top: solid 1px #dcdcdc;
+  text-align: center;
+  border-top: ;
+  margin-top: 2rem;
+  padding: 1rem 0 0 0;
   font-size: .9rem;
-  color: #989797;
 }
 @media (min-width: 768px){
   .article-footer{
+    text-align: left;
     margin-top: 3rem;
     font-size: .8rem;
   }
@@ -220,7 +225,13 @@
 
 .favorite-icon{
   vertical-align:middle;
-  color: #f57975;
+  color: #b0b0b0;
+}
+@media (min-width: 768px){
+  .favorite-icon{
+    vertical-align:middle;
+    color: #f57975;
+  }
 }
 
 .tag{
