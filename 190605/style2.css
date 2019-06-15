@@ -14,9 +14,9 @@
 
 /*containerの設定*/
 .container-extend{
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @media (min-width: 576px){
   .container-extend{
@@ -107,7 +107,7 @@
  */
 .article-box{
   background-color: white;
-  padding: 15px;
+  padding: 1rem;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
@@ -146,8 +146,14 @@
 }
 
 .article-header{
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
+@media (min-width: 576px){
+  .article-header{
+    margin-bottom: 4rem;
+  }
+}
+
 .blog-post-title {
   margin-bottom: 1rem;
   font-size: 22px;
@@ -195,12 +201,13 @@
 }
 
 .article-footer{
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: .9rem;
   color: #989797;
 }
 @media (min-width: 576px){
   .article-footer{
+    margin-top: 3rem;
     font-size: .8rem;
   }
 }
@@ -257,8 +264,8 @@
   }
 }
 ul{
-   margin-bottom: 15px;
-   margin-top: 15px;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
  }
 
 /*プロフィール*/
@@ -380,9 +387,10 @@ ul{
 .archive-select{
   display: block;
   padding: 13px 18px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   width: 100%;
   font-size: 12px;
+  color: #666666;
   background-color: #FFFFFF;
   background-origin: padding-box;
   border-bottom: 1px;
@@ -414,7 +422,7 @@ ul{
 .profile-box{
   background-color: white;
   padding: 13px 18px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   border-bottom: 1px;
   border-color: #e6e6e6;
   border-style: none none solid;
@@ -437,7 +445,7 @@ ul{
   color: #989797;
   font-size: 9px;
   text-align: center;
-  padding: 15px;
+  padding: 1rem;
 }
 @media (min-width: 576px){
   .blog-footer{
