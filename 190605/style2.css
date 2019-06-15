@@ -137,7 +137,7 @@
 }
 
 .blog-text{
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (min-width: 576px){
   .blog-text{
@@ -150,7 +150,7 @@
 }
 .blog-post-title {
   margin-bottom: 1rem;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 @media (min-width: 576px){
@@ -290,7 +290,7 @@ ul{
 .profile-name{
   display:inline-block;
   vertical-align: middle;
-  color: #666666;
+  color: #272727;
   font-size: 14px;
   font-weight: bold;
 }
@@ -430,11 +430,24 @@ ul{
 
 /*フッタ*/
 .blog-footer{
+  background-color: #3b3b3b;
   border-top: solid 1px #dcdcdc;
 }
 .blog-footer-text {
-  color: #999999;
-  font-size: .8rem;
-  text-align: right;
-  padding: 30px 0 60px 0;
+  color: #989797;
+  font-size: 9px;
+  text-align: center;
+  padding: 15px;
+}
+@media (min-width: 576px){
+  .blog-footer{
+    background-color: #FFFFFF;
+    border-top: solid 1px #dcdcdc;
+  }
+  .blog-footer-text {
+    color: #999999;
+    font-size: .8rem;
+    text-align: right;
+    padding: 30px 0 60px 0;
+  }
 }
