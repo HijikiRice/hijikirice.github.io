@@ -1,8 +1,7 @@
-input[type="button"],input[type="text"]input[type="submit"] {
-                        -webkit-appearance: none;
-                        border-radius: 0;
-                      }
-
+input[type="button"],input[type="text"],input[type="submit"],input[type="image"],textarea{
+  -webkit-appearance: none;
+  border-radius: 0;
+}
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
