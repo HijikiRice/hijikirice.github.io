@@ -304,6 +304,9 @@ ul{
     display: none;
   }
 }
+.btn-disabled{
+  background-color: #ebebeb;
+}
 /*プロフィール*/
 .profile{
   margin-bottom: 2rem;
