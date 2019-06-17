@@ -57,7 +57,33 @@
     font-size: 2.5rem;
   }
 }
-
+/* カルーセル画像の設定 */
+.carousel-item img{
+  height: 250px;
+  object-fit: fill;
+  object-position: bottom;
+}
+@media (min-width: 768px){
+  .carousel-item img{
+    height: 450px;
+    object-fit: fill;
+    object-position: bottom;
+  }
+}
+@media (min-width: 992px){
+  .carousel-item img{
+    height: 500px;
+    object-fit: fill;
+    object-position: bottom;
+  }
+}
+@media (min-width: 1200px){
+  .carousel-item img{
+    height: 550px;
+    object-fit: cover;
+    object-position: 0 70%;
+  }
+}
 .homeicon{
   color: #b2b2b2;
   font-size: 2rem;
@@ -234,35 +260,6 @@
     vertical-align:middle;
     color: #f57975;
   }
-}
-
-.tag{
-  display: none;
-}
-@media (min-width: 768px){
-  .tag{
-    vertical-align:middle;
-    display: inline-block;
-  }
-}
-
-
-.tag a {
-  color: #989797;
-}
-
-.tag a:visited {
-  color: #989797;
-}
-
-.tag a:hover {
-  text-decoration: none;
-  color: #376c9c
-}
-
-.tag-icon{
-  vertical-align:middle;
-  color: #3771ac;
 }
 
 .page-navigator{
