@@ -28,7 +28,7 @@
 }
 /*ジャンボトロンの画像設定*/
 .jumbotron {
-  background-image: url("images/header_001.jpg");
+  background-image: url("images/photos/header_001.jpg");
   background-size: cover;
   background-position: center 60%;
   margin-bottom: 0;
@@ -111,7 +111,7 @@
 }
 
 .bg-img {
-  background-image: url("images/shattered.png");
+  background-image: url("images/background_img/shattered.png");
 }
 @media (min-width: 768px){
   .bg-img {
@@ -434,7 +434,7 @@ ul{
   border-style: none none solid;
   background-repeat: no-repeat;
   background-position: 96% center;
-  background-image: url("images/allow_down.png");
+  background-image: url("images/icons/allow_down.png");
 }
 
 .ad-wrapper{
