@@ -19,20 +19,18 @@
 <body>
 <header>
 <div class="order-box">
-  <div class="order2">
     <!--PC用画像-->
-    <img src="images/dummy/1500x350.png" class="order2 	d-none d-md-block img-fluid" alt="">
+    <img src="images/dummy/1500x500.png" class="img-fluid d-none d-md-block" alt="">
     <!--スマホ用画像-->
-    <img src="images/dummy/960x540.png" class="order2 d-md-none d-block img-fluid" alt="">
-  </div>
+    <img src="images/dummy/960x540.png" class="order2 img-fluid d-md-none d-block" alt="">
   <div class="order1">
-    <nav class="navbar navbar-expand-md navbar-light bg-light rounded">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2f4691;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav text-md-center nav-justified w-100">
-          <li class="nav-item"><a class="nav-link active" href="#">ホーム</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">TOP</a></li>
           <li class="nav-item"><a class="nav-link" href="#">学生寮とは？</a></li>
           <li class="nav-item"><a class="nav-link" href="#">１日の生活</a></li>
           <li class="nav-item"><a class="nav-link" href="#">第１と第３の違い</a></li>
@@ -49,51 +47,60 @@
   <div class="container">
     <div class="wrapper">
       <!--１つ目のコンテンツ-->
-      <div class="row contents-wrapper">
-        <div class="col-md-6 order-md-first">
-          <div class="alert alert-primary">学生寮について</div>
-          <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-        </div>
-        <div class="col-md-6">
-          <img src="images/dummy/640x480.png" class="figure-img img-fluid rounded" alt="第１学生会館">
+      <div class="contents-wrapper">
+        <div class="chapter chapter-title">学生寮について</div>
+        <div class="row">
+          <div class="col-md-7 order-md-first">
+            <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/dummy/640x480.png" class="figure-img img-fluid rounded" alt="第１学生会館">
+          </div>
         </div>
       </div>
       <!--２つ目のコンテンツ-->
-      <div class="row contents-wrapper">
-        <div class="col-md-6">
-          <div class="alert alert-primary">寮生活はどんな感じ？</div>
-          <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-        </div>
-        <div class="col-md-6 order-md-first">
-          <img src="images/eat_01.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+      <div class="contents-wrapper">
+        <div class="chapter chapter-title">寮生活はどんな感じ？</div>
+        <div class="row">
+          <div class="col-md-7">
+            <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
+          <div class="col-md-5 order-md-first">
+            <img src="images/eat_01.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+          </div>
         </div>
       </div>
       <!--３つ目のコンテンツ-->
-      <div class="row contents-wrapper">
-        <div class="col-md-6 order-md-first">
-          <div class="alert alert-primary">第１と第２（第３）学生会館の違い</div>
-          <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-        </div>
-        <div class="col-md-6">
-          <img src="images/dummy/640x480.png" class="figure-img img-fluid rounded" alt="第１学生会館">
+      <div class="contents-wrapper">
+        <div class="chapter chapter-title">第１と第２（第３）学生会館の違い</div>
+        <div class="row">
+          <div class="col-md-7 order-md-first">
+            <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/dummy/640x480.png" class="figure-img img-fluid rounded" alt="第１学生会館">
+          </div>
         </div>
       </div>
       <!--４つ目のコンテンツ-->
-      <div class="row contents-wrapper">
-        <div class="col-md-6 order-first">
-          <div class="alert alert-primary">Q&A</div>
-          <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-        </div>
-        <div class="col-md-6 order-md-first">
-          <img src="images/q_a.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+      <div class="contents-wrapper">
+        <div class="chapter chapter-title">Q&A</div>
+        <div class="row">
+          <div class="col-md-7">
+            <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
+          <div class="col-md-5 order-md-first">
+            <img src="images/q_a.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </main>
-
 <footer>
-  ©Ryota Ogasahara
+  <div class="footer-wrapper">
+    ©Ryota Ogasahara
+  </div>
 </footer>
 <!-- Java Script 読み込み -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
