@@ -92,7 +92,8 @@
 }
 @media (max-width: 768px) {
   .chapter-title{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
   }
 }
 .chapter{
@@ -103,6 +104,18 @@
   border-left-width: .5rem;
   border-left-color: #2f4691;
   border-radius: .25rem;
+}
+@media (max-width: 768px) {
+  .chapter{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    border-left-width: .5rem;
+    border-left-color: #2f4691;
+    border-radius: .25rem;
+  }
 }
 .nav-item a {
   color: #ffffff;
