@@ -15,16 +15,17 @@
   }
 }
 .wrapper{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 @media (max-width: 768px) {
   .wrapper{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
   }
 }
 .contents-wrapper{
+  background-color: #FFFFFF;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -132,8 +133,7 @@
   text-align: center;
   background-color: #ffffff;
   color: #212529;
-  padding: 1rem;
-  margin: 4rem;
+  padding: 3rem;
 }
 @media (max-width: 768px) {
   .footer-wrapper{
@@ -142,7 +142,6 @@
     background-color: #2f4691;
     color: #FFFFFF;
     padding: 1rem;
-    margin: 0;
   }
 }
 .point{
