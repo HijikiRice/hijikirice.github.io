@@ -124,6 +124,7 @@
 }
 @media (max-width: 768px) {
   .footer-wrapper{
+    font-size: .8rem;
     text-align: center;
     background-color: #2f4691;
     color: #FFFFFF;
