@@ -148,10 +148,10 @@
   }
 }
 .point h3{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .point p{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 @media (max-width: 768px) {
   .point h3{
