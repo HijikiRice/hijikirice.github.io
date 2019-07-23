@@ -153,6 +153,9 @@
 .point p{
   font-size: 1rem;
 }
+.point li{
+  margin-bottom: .5rem;
+}
 @media (max-width: 768px) {
   .point{
   margin-bottom: 1rem;
@@ -165,4 +168,7 @@
     font-size: 1rem;
     padding-bottom: 0;
   }
+}
+.section-wrapper{
+  margin-bottom: 3rem;
 }
