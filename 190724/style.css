@@ -172,3 +172,19 @@
 .section-wrapper{
   margin-bottom: 3rem;
 }
+.carousel-wrapper{
+  margin: 0 20% 0 20%;
+}
+@media (max-width: 768px) {
+  .carousel-wrapper{
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption .p{
+    display: none;
+  }
+  .carousel-caption .h5{
+    font-size: 1rem;
+  }
+}
