@@ -147,8 +147,11 @@
     padding: 1rem;
   }
 }
-.point{
+.point h3{
   font-size: 1.5rem;
+}
+.point p{
+  font-size: 1.25rem;
 }
 @media (max-width: 768px) {
   .point{
