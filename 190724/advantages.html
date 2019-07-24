@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>寮生活のメリット・デメリット｜片柳学園学生会館徹底攻略サイト</title>
   <!-- Bootstrap4 読み込み -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- GoogleFont 読み込み-->
   <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <!-- Material icon -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">
@@ -17,6 +19,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--TOPに戻るボタン-->
+<button class="scroll-top" id="js-button"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 <header>
   <div class="order-box">
     <!--PC用画像-->
@@ -31,7 +35,8 @@
     <div class="order1">
       <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2f4691;">
         <a class="navbar-brand navbar-brand-extend d-md-none d-block" href="#">片柳学園学生会館完全攻略サイト</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar"
+                aria-expanded="false" aria-label="ナビゲーションの切替">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="Navbar">
@@ -50,24 +55,44 @@
 <main class="bg-img">
   <div class="container">
     <div class="wrapper">
-      <!--１つ目のコンテンツ-->
+      <!--1つ目のコンテンツ-->
       <div class="contents-wrapper">
         <div class="chapter chapter-title">寮生活のメリット・デメリット</div>
+        <div class="section-wrapper">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="point">
+                <h3>☆メリット</h3>
+                <ul>
+                  <li>安い</li>
+                  <li>食事がついてくるので自炊の必要がない</li>
+                  <li>ゴミを出すのが楽</li>
+                  <li>学生寮発のバスがあるから通学であまり並ばずに済む。</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="images/o.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--2つ目のコンテンツ-->
+      <div class="section-wrapper">
         <div class="row">
           <div class="col-md-8">
             <div class="point">
-              <h3>☆メリット</h3>
-              <ul>
-                <li>あ</li>
-              </ul>
               <h3>☆デメリット</h3>
               <ul>
-                <li>あ</li>
+                <li>マナーの悪い住民がいる。</li>
+                <li>自炊をしたくてもできない。</li>
+                <li>門限や食事などの時間に制約がある。</li>
+                <li>部屋の防音が不十分で廊下からの音が聞こえる。</li>
               </ul>
             </div>
           </div>
           <div class="col-md-4">
-            <img src="images/domitory_01.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
+            <img src="images/x.jpg" class="figure-img img-fluid rounded" alt="第１学生会館">
           </div>
         </div>
       </div>
@@ -81,7 +106,34 @@
 </footer>
 <!-- Java Script 読み込み -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+<!--TOPに戻るボタン-->
+<script>
+    scrollTop('js-button', 500);
+
+    function scrollTop(elem, duration) {
+        let target = document.getElementById(elem);
+        target.addEventListener('click', function () {
+            let currentY = window.pageYOffset;
+            let step = duration / currentY > 1 ? 10 : 100;
+            let timeStep = duration / currentY * step;
+            let intervalID = setInterval(scrollUp, timeStep);
+
+            function scrollUp() {
+                currentY = window.pageYOffset;
+                if (currentY === 0) {
+                    clearInterval(intervalID);
+                } else {
+                    scrollBy(0, -step);
+                }
+            }
+        });
+    }
+</script>
 </body>
 </html>
