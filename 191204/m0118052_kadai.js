@@ -1,11 +1,17 @@
-console.log("m0118052_kadai.jsの読み込み");
+const saburouTweets = tweets.filter(x => x.name === "三郎BOT");
+console.log(saburouTweets);
+const JirouTweets = tweets.filter(x => x.name === "次郎");
+console.log(JirouTweets);
+const TarouTweets = tweets.filter(x => x.name === "太郎");
+console.log(TarouTweets);
 
-let answer = document.querySelector("#answer");
+let answer = document.querySelector("div#answer");
+console.log("ALLが表示された");
 let answerHTML;
 answerHTML = "<ul>"
 let i = 0;
 
-while(i < tweets.length){
+while (i < tweets.length) {
   answerHTML = answerHTML
       + "<li class='tweet'>"
       + "<img src = " + tweets[i].avatar + " alt = " + tweets[i].name + " class = 'icon'>"
@@ -15,13 +21,15 @@ while(i < tweets.length){
       + "</li>";
   i++;
 }
-answerHTML  = answerHTML + "</ul>";
-answer.innerHTML = answerHTML;
+answerHTML = answerHTML + "</ul>"
+answer.innerHTML = "ALLが表示された" + answerHTML;
 
 function userSelectAll() {
-  console.log("Allが押された")
+  console.log("ALLが押された");
   answerHTML = "<ul>"
-  while(i < tweets.length){
+  i = 0;
+
+  while (i < tweets.length) {
     answerHTML = answerHTML
         + "<li class='tweet'>"
         + "<img src = " + tweets[i].avatar + " alt = " + tweets[i].name + " class = 'icon'>"
@@ -31,57 +39,63 @@ function userSelectAll() {
         + "</li>";
     i++;
   }
-  answerHTML  = answerHTML + "</ul>";
-  answer.innerHTML = answerHTML;
+  answerHTML = answerHTML + "</ul>"
+  answer.innerHTML = "ALLが表示された" + answerHTML;
 }
 
 function userSelectSaburou() {
-  console.log("三郎BOTが押された")
+  console.log("三郎BOTが押された");
   answerHTML = "<ul>"
-  while(i < tweets.length){
+  i = 0;
+
+  while (i < saburouTweets.length) {
     answerHTML = answerHTML
         + "<li class='tweet'>"
-        + "<img src = " + tweets[0].avatar + " alt = " + tweets[0].name + " class = 'icon'>"
-        + "<b>" + tweets[0].name + "</b> "
-        + tweets[0].message
-        + " <i>" + tweets[0].tweetedAt + "</i>"
+        + "<img src = " + saburouTweets[i].avatar + " alt = " + saburouTweets[i].name + " class = 'icon'>"
+        + "<b>" + saburouTweets[i].name + "</b> "
+        + saburouTweets[i].message
+        + " <i>" + saburouTweets[i].tweetedAt + "</i>"
         + "</li>";
     i++;
   }
-  answerHTML  = answerHTML + "</ul>";
-  answer.innerHTML = answerHTML;
+  answerHTML = answerHTML + "</ul>"
+  answer.innerHTML = "三郎BOTが表示された" + answerHTML;
 }
 
 function userSelectJirou() {
-  console.log("次郎が押された")
+  console.log("次郎が押された");
   answerHTML = "<ul>"
-  while(i < tweets.length){
+  i = 0;
+
+  while (i < JirouTweets.length) {
     answerHTML = answerHTML
         + "<li class='tweet'>"
-        + "<img src = " + tweets[1].avatar + " alt = " + tweets[1].name + " class = 'icon'>"
-        + "<b>" + tweets[1].name + "</b> "
-        + tweets[1].message
-        + " <i>" + tweets[1].tweetedAt + "</i>"
+        + "<img src = " + JirouTweets[i].avatar + " alt = " + JirouTweets[i].name + " class = 'icon'>"
+        + "<b>" + JirouTweets[i].name + "</b> "
+        + JirouTweets[i].message
+        + " <i>" + JirouTweets[i].tweetedAt + "</i>"
         + "</li>";
     i++;
   }
-  answerHTML  = answerHTML + "</ul>";
-  answer.innerHTML = answerHTML;
+  answerHTML = answerHTML + "</ul>"
+  answer.innerHTML = "次郎が表示された" + answerHTML;
 }
 
 function userSelectTarou() {
-  console.log("太郎が押された")
+  console.log("太郎が押された");
   answerHTML = "<ul>"
-  while(i < tweets.length){
+  i = 0;
+
+  while (i < TarouTweets.length) {
     answerHTML = answerHTML
         + "<li class='tweet'>"
-        + "<img src = " + tweets[2].avatar + " alt = " + tweets[2].name + " class = 'icon'>"
-        + "<b>" + tweets[2].name + "</b> "
-        + tweets[2].message
-        + " <i>" + tweets[2].tweetedAt + "</i>"
+        + "<img src = " + TarouTweets[i].avatar + " alt = " + TarouTweets[i].name + " class = 'icon'>"
+        + "<b>" + TarouTweets[i].name + "</b> "
+        + TarouTweets[i].message
+        + " <i>" + TarouTweets[i].tweetedAt + "</i>"
         + "</li>";
     i++;
   }
-  answerHTML  = answerHTML + "</ul>";
-  answer.innerHTML = answerHTML;
+  answerHTML = answerHTML + "</ul>"
+  answer.innerHTML = "太郎が表示された" + answerHTML;
 }
