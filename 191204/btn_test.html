@@ -4,13 +4,25 @@
   <meta charset="UTF-8">
   <title>中間課題</title>
   <!-- 自前CSSの読み込み -->
+  <!--Bootstrap4-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-  <button onclick="userSelectAll()">ALL</button>
-  <button onclick="userSelectSaburou()">三郎BOT</button>
-  <button onclick="userSelectJirou()">次郎</button>
-  <button onclick="userSelectTarou()">太郎</button>
-  <div id="answer">"userSelectAll()"</div>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+      <input onclick="userSelectAll()" type="radio" name="options" id="option1" checked> All
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectAll()" type="radio" name="options" id="option2"> 三郎BOT
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectAll()" type="radio" name="options" id="option3"> 次郎
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectAll()" type="radio" name="options" id="option4"> 太郎
+    </label>
+  </div>
+  <div id="answer"></div>
 <!--自前JSファイル読み込み-->
 <script type="text/javascript" src="btn_test.js"></script>
 </body>

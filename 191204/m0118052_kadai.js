@@ -1,14 +1,14 @@
-const saburouTweets = tweets.filter(x => x.name === "三郎BOT");
+let saburouTweets = tweets.filter(x => x.name === "三郎BOT");
 console.log(saburouTweets);
-const JirouTweets = tweets.filter(x => x.name === "次郎");
+let JirouTweets = tweets.filter(x => x.name === "次郎");
 console.log(JirouTweets);
-const TarouTweets = tweets.filter(x => x.name === "太郎");
+let TarouTweets = tweets.filter(x => x.name === "太郎");
 console.log(TarouTweets);
 
 let answer = document.querySelector("div#answer");
-console.log("ALLが表示された");
+console.log("Allが表示された");
 let answerHTML;
-answerHTML = "<ul>"
+answerHTML = "<ul>";
 let i = 0;
 
 while (i < tweets.length) {
@@ -21,12 +21,12 @@ while (i < tweets.length) {
       + "</li>";
   i++;
 }
-answerHTML = answerHTML + "</ul>"
-answer.innerHTML = "ALLが表示された" + answerHTML;
+answerHTML = answerHTML + "</ul>";
+answer.innerHTML = answerHTML;
 
 function userSelectAll() {
-  console.log("ALLが押された");
-  answerHTML = "<ul>"
+  console.log("Allが押された");
+  answerHTML = "<ul>";
   i = 0;
 
   while (i < tweets.length) {
@@ -39,13 +39,13 @@ function userSelectAll() {
         + "</li>";
     i++;
   }
-  answerHTML = answerHTML + "</ul>"
-  answer.innerHTML = "ALLが表示された" + answerHTML;
+  answerHTML = answerHTML + "</ul>";
+  answer.innerHTML = answerHTML;
 }
 
 function userSelectSaburou() {
   console.log("三郎BOTが押された");
-  answerHTML = "<ul>"
+  answerHTML = "<ul>";
   i = 0;
 
   while (i < saburouTweets.length) {
@@ -58,13 +58,13 @@ function userSelectSaburou() {
         + "</li>";
     i++;
   }
-  answerHTML = answerHTML + "</ul>"
-  answer.innerHTML = "三郎BOTが表示された" + answerHTML;
+  answerHTML = answerHTML + "</ul>";
+  answer.innerHTML = answerHTML;
 }
 
 function userSelectJirou() {
   console.log("次郎が押された");
-  answerHTML = "<ul>"
+  answerHTML = "<ul>";
   i = 0;
 
   while (i < JirouTweets.length) {
@@ -77,13 +77,13 @@ function userSelectJirou() {
         + "</li>";
     i++;
   }
-  answerHTML = answerHTML + "</ul>"
-  answer.innerHTML = "次郎が表示された" + answerHTML;
+  answerHTML = answerHTML + "</ul>";
+  answer.innerHTML = answerHTML;
 }
 
 function userSelectTarou() {
   console.log("太郎が押された");
-  answerHTML = "<ul>"
+  answerHTML = "<ul>";
   i = 0;
 
   while (i < TarouTweets.length) {
@@ -96,6 +96,6 @@ function userSelectTarou() {
         + "</li>";
     i++;
   }
-  answerHTML = answerHTML + "</ul>"
-  answer.innerHTML = "太郎が表示された" + answerHTML;
+  answerHTML = answerHTML + "</ul>";
+  answer.innerHTML = answerHTML;
 }
