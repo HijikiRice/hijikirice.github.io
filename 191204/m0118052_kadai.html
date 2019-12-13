@@ -10,10 +10,20 @@
 </head>
 <body>
 <div class="container">
-  <button type="button" class="btn btn-primary" onclick="userSelectAll()">All</button>
-  <button type="button" class="btn btn-primary" onclick="userSelectSaburou()">三郎BOT</button>
-  <button type="button" class="btn btn-primary" onclick="userSelectJirou()">次郎</button>
-  <button type="button" class="btn btn-primary" onclick="userSelectTarou()">太郎</button>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+      <input onclick="userSelectAll()" type="radio" name="options" id="option1" checked> All
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectSaburou()" type="radio" name="options" id="option2"> 三郎BOT
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectJirou()" type="radio" name="options" id="option3"> 次郎
+    </label>
+    <label class="btn btn-secondary">
+      <input onclick="userSelectTarou()" type="radio" name="options" id="option4"> 太郎
+    </label>
+  </div>
   <div id="answer"></div>
 </div>
 
