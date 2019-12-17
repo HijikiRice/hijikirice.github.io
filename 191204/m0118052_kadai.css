@@ -1,10 +1,13 @@
+html{
+  overflow-y: scroll;
+}
 .container {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 .icon {
-  width: 10%;
+  width: 100px;
 }
 
 .tweet {
@@ -26,7 +29,7 @@ ul {
   }
 
   .icon {
-    width: 20%;
+    width: 80px;
   }
 
   .tweet {

@@ -1,8 +1,8 @@
-let saburouTweets = tweets.filter(x => x.name === "三郎BOT");
+let saburouTweets = tweets.filter(user => user.name === "三郎BOT");
 console.log(saburouTweets);
-let JirouTweets = tweets.filter(x => x.name === "次郎");
+let JirouTweets = tweets.filter(user => user.name === "次郎");
 console.log(JirouTweets);
-let TarouTweets = tweets.filter(x => x.name === "太郎");
+let TarouTweets = tweets.filter(user => user.name === "太郎");
 console.log(TarouTweets);
 
 let answer = document.querySelector("div#answer");
